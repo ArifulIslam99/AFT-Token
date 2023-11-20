@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
-contract AfriCoin is ERC20Capped, ERC20Burnable {
+contract AfriToken is ERC20Capped, ERC20Burnable {
     address payable public manager;
     uint256 public blockReward;
 
